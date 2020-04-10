@@ -1,0 +1,885 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{units}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 1
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 2
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Subsection*
+Reporte
+\end_layout
+
+\begin_layout Standard
+Calcular:
+\end_layout
+
+\begin_layout Enumerate
+Eficiencia del generador de vapor.
+\end_layout
+
+\begin_layout Enumerate
+Calidad del vapor en el calorimetro electrico.
+\end_layout
+
+\begin_layout Enumerate
+Calidad del vapor en el calorimetro de estrangulamiento.
+\end_layout
+
+\begin_layout Subsection*
+Solucion
+\end_layout
+
+\begin_layout Standard
+A partir de la expresion para calcular la eficiencia
+\begin_inset Formula 
+\[
+\dot{m_{c}}\left[\frac{\textrm{kg}}{\textrm{h}}\right]\cdot\textrm{PCA\left[\frac{\textrm{kJ}}{kg}\right] \eta}=\dot{m}_{v}\left[\frac{\textrm{kg}}{\textrm{h}}\right]\cdot\left(h_{2}-h_{1}\right)\left[\frac{\textrm{kJ}}{\textrm{kg}}\right]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Un generador de vapor consume 
+\begin_inset Formula $8626\left[\frac{\textrm{kg}}{\textrm{h}}\right]$
+\end_inset
+
+ de combustible cuyo poder calorifico alto es de 
+\begin_inset Formula $7560\left[\frac{\textrm{kcal}}{\textrm{kg}}\right]$
+\end_inset
+
+; la temperatura del agua de alimentacion es de 
+\begin_inset Formula $94\left[\textdegree\textrm{C}\right]$
+\end_inset
+
+ y la presion del vapor en la salida es de 
+\begin_inset Formula ${\displaystyle 12.6\left[\textrm{bar}\right]}$
+\end_inset
+
+ abs.
+ Los datos de un calorimetro acoplado a la caldera son de 
+\begin_inset Formula ${\textstyle 115}\left[\textdegree\textrm{C}\right]$
+\end_inset
+
+ y presion atmosferica de 
+\begin_inset Formula ${\textstyle 725}\textrm{\left[\textrm{mmHg}\right]}$
+\end_inset
+
+.
+ La eficiencia de la caldera es de 
+\begin_inset Formula ${\textstyle 76}\%$
+\end_inset
+
+.
+ Calcular:
+\end_layout
+
+\begin_layout Enumerate
+El calor suministrado 
+\begin_inset Formula $\dot{Q_{s}}$
+\end_inset
+
+
+\begin_inset Formula $\left[\frac{\textrm{kJ}}{\textrm{h}}\right]$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+El gasto de vapor 
+\begin_inset Formula ${\textstyle \dot{m_{v}}}$
+\end_inset
+
+
+\begin_inset Formula $\left[\frac{\textrm{kg}}{\textrm{h}}\right]$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+La calidad del vapor generado 
+\begin_inset Formula $\%$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+Solucion
+\end_layout
+
+\begin_layout Standard
+Para resolver este problema es de utilidad la aplicacion de los principios
+ de la conservacion de la energia y de la conservacion de la masa al sistema
+ en estudio que puede modelarse como un volumen de control, tomando en considera
+cion, las siguientes suposiciones.
+ 
+\end_layout
+
+\begin_layout Enumerate
+No se realiza trabajo en la expansion del vapor despues de ser estrangulado.
+\end_layout
+
+\begin_layout Enumerate
+No hay perdidas de energia en forma de calor.
+\end_layout
+
+\begin_layout Enumerate
+El cambio en energia potencial es despreciable.
+\end_layout
+
+\begin_layout Itemize
+Esquema
+\end_layout
+
+\begin_layout Standard
+En el esquema se pueden distinguir los distintos puntos de interes o estados.
+ Modelando el calorimetro como una valvula de estrangulamiento.
+\end_layout
+
+\begin_layout Enumerate
+Entrada del generador de vapor (caldera).
+\end_layout
+
+\begin_layout Enumerate
+Salida del generador de vapor.
+\end_layout
+
+\begin_layout Enumerate
+Temperatura a la salida de la valvula.
+\end_layout
+
+\begin_layout Itemize
+Diagrama
+\end_layout
+
+\begin_layout Standard
+Insertar diagrama
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+\align left
+Calor Suministrado 
+\begin_inset Formula $\dot{Q_{s}}$
+\end_inset
+
+
+\begin_inset Newline linebreak
+\end_inset
+
+Se conocen los valores de 
+\begin_inset Formula $\dot{m}_{c}$
+\end_inset
+
+ y del 
+\begin_inset Formula $\textrm{PCA}$
+\end_inset
+
+.
+ Por lo tanto, se puede calcular 
+\begin_inset Formula $\dot{Q_{s}}$
+\end_inset
+
+ como sigue:
+\begin_inset Formula 
+\begin{equation}
+\dot{Q}_{s}\left[\frac{\textrm{kJ}}{\textrm{h}}\right]=\dot{m}_{c}\left[\frac{\textrm{kg}}{\textrm{h}}\right]\cdot\textrm{PCA}\left[\frac{\textrm{kJ}}{\textrm{kg}}\right]\label{eq:Qs}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+\align left
+Gasto de vapor 
+\begin_inset Formula $\dot{m}_{v}$
+\end_inset
+
+
+\begin_inset Newline linebreak
+\end_inset
+
+De la definicion de eficiencia se tiene que
+\begin_inset Formula 
+\[
+\dot{Q}_{a}\left[\frac{\textrm{kJ}}{\textrm{h}}\right]=\eta\cdot\dot{Q_{s}}\left[\frac{\textrm{kJ}}{\textrm{h}}\right]
+\]
+
+\end_inset
+
+
+\begin_inset Newline linebreak
+\end_inset
+
+Ademas
+\begin_inset Formula 
+\begin{equation}
+\dot{Q}_{a}\left[\frac{\textrm{kJ}}{\textrm{h}}\right]=\dot{m}_{v}\left[\frac{\textrm{kg}}{\textrm{h}}\right]\cdot\left(h_{2}-h_{1}\right)\left[\frac{\textrm{kJ}}{\textrm{kg}}\right]
+\end{equation}
+
+\end_inset
+
+
+\begin_inset Newline linebreak
+\end_inset
+
+El proceso del estado 2 al estado 3 es isoentalpico, por lo tanto 
+\begin_inset Formula $h_{2}=h_{3}$
+\end_inset
+
+.
+ 
+\begin_inset Formula $h_{3}$
+\end_inset
+
+ se obtiene de tablas de vapor saturado con 
+\begin_inset Formula $P_{\textrm{atm}}$
+\end_inset
+
+y 
+\begin_inset Formula $T_{3}$
+\end_inset
+
+.
+ 
+\begin_inset Newline linebreak
+\end_inset
+
+Dado que se conocen los valores de 
+\begin_inset Formula $c_{p}$
+\end_inset
+
+ y 
+\begin_inset Formula $T_{1}$
+\end_inset
+
+, se puede obtener la entalpia del estado inicial 
+\begin_inset Formula $h_{1}$
+\end_inset
+
+.
+\begin_inset Formula 
+\begin{equation}
+h_{1}\left[\frac{\textrm{kJ}}{\textrm{kg}}\right]=c_{p}\left[\frac{\textrm{kJ}}{\textrm{kg}\cdot\textrm{K}}\right]\cdot\left(T_{1}-0\right)\left[K\right]
+\end{equation}
+
+\end_inset
+
+
+\begin_inset Newline linebreak
+\end_inset
+
+Despejando 
+\begin_inset Formula $\dot{m_{v}}$
+\end_inset
+
+ y sustituyendo.
+\color blue
+
+\begin_inset Formula 
+\begin{alignat}{1}
+{\color{black}\dot{m}_{v}\left[\frac{\textrm{kg}}{\textrm{h}}\right]} & {\color{black}=\frac{\dot{Q}_{a}\left[\frac{\textrm{kJ}}{\textrm{h}}\right]}{\left(h_{3}-h_{1}\right)\left[\frac{\textrm{kJ}}{\textrm{kg}}\right]}}
+\end{alignat}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Calidad del vapor generado 
+\begin_inset Formula $\chi$
+\end_inset
+
+
+\begin_inset Newline linebreak
+\end_inset
+
+De la definicion de calidad:
+\begin_inset Formula 
+\[
+h_{2}\left[\frac{\textrm{kJ}}{\textrm{kg}}\right]=h_{f}\left[\frac{\textrm{kJ}}{\textrm{kg}}\right]+\chi\cdot h_{fg}\left[\frac{\textrm{kJ}}{\textrm{kg}}\right]
+\]
+
+\end_inset
+
+
+\begin_inset Newline linebreak
+\end_inset
+
+Obteniendo 
+\begin_inset Formula $h_{f}$
+\end_inset
+
+ y 
+\begin_inset Formula $h_{fg}$
+\end_inset
+
+ con 
+\begin_inset Formula $P_{\textrm{caldera}}$
+\end_inset
+
+ de tablas de vapor saturado y despejando la calidad tenemos:
+\begin_inset Formula 
+\[
+{\color{blue}\chi=\frac{h_{2}\left[\frac{\textrm{kJ}}{\textrm{kg}}\right]-h_{f}\left[\frac{\textrm{kJ}}{\textrm{kg}}\right]}{h_{fg}\left[\frac{\textrm{kJ}}{\textrm{kg}}\right]}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Operaciones
+\end_layout
+
+\begin_layout Subsubsection*
+Datos
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\begin{aligned}m_{c} & =8626\left[\frac{\textrm{kg}}{\textrm{h}}\right]\\
+\textrm{PCA} & =7560\left[\frac{\textrm{kcal}}{\textrm{kg}}\right]\cdot\frac{4.184}{1}\left[\frac{\textrm{kJ}}{\textrm{kcal}}\right]=31631.04\left[\frac{\textrm{kJ}}{\textrm{kg}}\right]\\
+T_{1} & =94\left[\textdegree\textrm{C}\right]=(94+273.15)\left[\textrm{K}\right]=367.15\left[\textrm{K}\right]\\
+P_{2} & =12.6\left[\textrm{bar}\right]\cdot\frac{1}{10}\left[\frac{\textrm{MPa}}{\textrm{\textrm{bar}}}\right]=1.26\left[\textrm{MPa}\right]\\
+T_{2} & =115\left[\textdegree\textrm{C}\right]\\
+P_{\textrm{atm}} & =725\left[\textrm{mmHg}\right]\cdot\frac{1}{7500.63}\left[\frac{\textrm{MPa}}{\textrm{\textrm{mmHg}}}\right]=0.096\left[\textrm{MPa}\right]\\
+\eta_{\textrm{caldera}} & =0.76\\
+c_{p} & =4.186\left[\frac{\textrm{kJ}}{\textrm{kg\cdot K}}\right]
+\end{aligned}
+$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Calor suministrado 
+\begin_inset Formula $\dot{Q_{s}}$
+\end_inset
+
+.
+ Sustituyendo en la ecuacion 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:Qs"
+
+\end_inset
+
+ 
+\begin_inset Formula 
+\begin{alignat*}{1}
+\dot{Q}_{s}\left[\frac{\textrm{kJ}}{\textrm{h}}\right] & =\dot{m}_{c}\left[\frac{\textrm{kg}}{\textrm{h}}\right]\cdot\textrm{PCA}\left[\frac{\textrm{kJ}}{\textrm{kg}}\right]\\
+ & =\left(8626\right)\left[\frac{\textrm{kg}}{\textrm{h}}\right]\cdot\textrm{\left(31631.04\right)}\left[\frac{\textrm{kJ}}{\textrm{kg}}\right]\\
+\dot{Q}_{s}\left[\frac{\textrm{kJ}}{\textrm{h}}\right] & =272849351.04\left[\frac{\textrm{kJ}}{\textrm{h}}\right]
+\end{alignat*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Calculando 
+\begin_inset Formula $\dot{Q_{a}}$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Obtencion de 
+\begin_inset Formula $h_{2}$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+Sabemos que 
+\begin_inset Formula $h_{2}=h_{3}.$
+\end_inset
+
+ Obtenemos 
+\begin_inset Formula $h_{3}$
+\end_inset
+
+ de tablas de vapor saturado con 
+\begin_inset Formula $P_{\textrm{atm}}=0.096\left[\textrm{MPa}\right]$
+\end_inset
+
+ y 
+\begin_inset Formula $T_{3}=115\left[\textdegree\textrm{C}\right]$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $T\left[\textdegree\textrm{C}\right]$
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $P\left[\textrm{MPa}\right]$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $h\left[\frac{\textrm{kJ}}{\textrm{kg}}\right]$
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+115
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.09
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2706.6
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+115
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.096
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2706.53
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+115
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.01
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2706.5
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Por lo tanto: 
+\begin_inset Formula $h_{2}=2706.53\left[\frac{\textrm{kJ}}{\textrm{kg}}\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Obtencion de 
+\begin_inset Formula $h_{1}$
+\end_inset
+
+ a partir de 
+\begin_inset Formula $c_{p}$
+\end_inset
+
+ y 
+\begin_inset Formula $T_{1}$
+\end_inset
+
+
+\begin_inset Formula 
+\begin{align*}
+h_{1}\left[\frac{\textrm{kJ}}{\textrm{kg}}\right] & =c_{p}\left[\frac{\textrm{kJ}}{\textrm{kg}\cdot\textrm{K}}\right]\cdot\left(T_{1}-0\right)\left[K\right]\\
+ & =\left(4.186\right)\left[\frac{\textrm{kJ}}{\textrm{kg}\cdot\textrm{K}}\right]\cdot\left(367.15-0\right)\left[K\right]\\
+h_{1}\left[\frac{\textrm{kJ}}{\textrm{kg}}\right] & =1536.8899\left[\frac{\textrm{kJ}}{\textrm{kg}}\right]
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Obtencion de 
+\begin_inset Formula $\dot{m_{v}}$
+\end_inset
+
+ a partir de 
+\begin_inset Formula $Q_{s}$
+\end_inset
+
+ y 
+\begin_inset Formula $h_{3}$
+\end_inset
+
+
+\begin_inset Formula 
+\begin{alignat*}{1}
+{\color{black}\dot{m}_{v}\left[\frac{\textrm{kg}}{\textrm{h}}\right]} & =\frac{\dot{Q}_{a}\left[\frac{\textrm{kJ}}{\textrm{h}}\right]}{\left(h_{3}-h_{1}\right)\left[\frac{\textrm{kJ}}{\textrm{kg}}\right]}\\
+ & =\frac{272849351.04\left[\frac{\textrm{kJ}}{\textrm{h}}\right]}{\left(2706.53-1536.8899\right)\left[\frac{\textrm{kJ}}{\textrm{kg}}\right]}\\
+\dot{m}_{v}\left[\frac{\textrm{kg}}{\textrm{h}}\right] & =233275.8323269006\left[\frac{\textrm{kg}}{\textrm{h}}\right]
+\end{alignat*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Calidad del vapor generado 
+\begin_inset Formula $\chi$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Obteniendo 
+\begin_inset Formula $h_{f}$
+\end_inset
+
+ y 
+\begin_inset Formula $h_{fg}$
+\end_inset
+
+ de tablas de vapor saturado con 
+\begin_inset Formula $P_{caldera}=1.26\left[\textrm{MPa}\right]$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $P\left[\textrm{MPa}\right]$
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $h_{f}\left[\frac{\textrm{kJ}}{\textrm{kg}}\right]$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $h_{fg}\left[\frac{\textrm{kJ}}{\textrm{kg}}\right]$
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.25
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+806.58
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2785.1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.26
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+808.18.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2785.38
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.30
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+814.60
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2786.5
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Sustituyendo en la ecuacione
+\begin_inset Formula 
+\begin{align*}
+{\color{blue}\chi} & =\frac{h_{2}\left[\frac{\textrm{kJ}}{\textrm{kg}}\right]-h_{f}\left[\frac{\textrm{kJ}}{\textrm{kg}}\right]}{h_{fg}\left[\frac{\textrm{kJ}}{\textrm{kg}}\right]}\\
+ & =\frac{2706.53\left[\frac{\textrm{kJ}}{\textrm{kg}}\right]-808.18\left[\frac{\textrm{kJ}}{\textrm{kg}}\right]}{2785.38\left[\frac{\textrm{kJ}}{\textrm{kg}}\right]}\\
+\chi & =0.68
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
